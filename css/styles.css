@@ -52,10 +52,6 @@ footer a:hover {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 .column {
   float: left;
   width: 25%; /* Adjust this value for the desired width of each column */
