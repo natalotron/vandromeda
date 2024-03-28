@@ -48,7 +48,7 @@ footer a:hover {
 }
 
  /*our pictures */ 
-{
+*,* ::before, *::after{
   box-sizing: border-box;
 }
 
