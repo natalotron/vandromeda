@@ -71,7 +71,7 @@ footer a:hover {
 }
 
 .container {
-  padding: 0 16px;
+  padding: 16px;
 }
 
 .container::after, .row::after {
