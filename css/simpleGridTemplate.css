@@ -282,9 +282,9 @@ footer {
 /*programming the calendar*/
 .button_calendar {
   border-radius: 1px;
-  background-color: #34abeb;
-  border: none;
-  color: #FFFFFF;
+  background-color: #004AAD;
+  border: none; 
+  color: #FFFFFF; 
   text-align: center;
   font-size: 15px;
   padding: 15px;
