@@ -364,7 +364,7 @@ footer a:hover {
 }
 
 .custom-bg-color { 
-    background-color: #fffcf8; 
+    background-color: #fff; 
 }
 
  /*our pictures */ 
@@ -400,8 +400,8 @@ footer a:hover {
   display: table;
 	margin-left: auto;
 	margin-right: auto;
-    padding-right: 20px;
-	padding-left: 20px;
+    padding-right: 50px;
+	padding-left: 50px;
 }
 
 .title {
@@ -482,7 +482,10 @@ signup-button:hover {
 
 /* Add padding to container elements */
 .registration-box {
-  padding: 16px;
+  padding-left: 16px;
+	padding-right: 16px;
+	margin-left: auto;
+	margin-right: auto
 }
 
 /* Clear floats */
