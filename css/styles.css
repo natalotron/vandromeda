@@ -562,3 +562,75 @@ signup-button:hover {
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove any default inline styling */
 }
+
+/*blog */
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+blog-body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header-blog {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn-blog {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn-blog {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg-blog {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card-blog {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row-blog:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer-blog {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+/*end of blog */
