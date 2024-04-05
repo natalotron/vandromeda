@@ -4,7 +4,7 @@
 /* natalia css file */
 telo {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-	background-color: #FFFFFF;
+	background-color: #f2d6c4;
 	margin: 0;
 }
 /* Container */
@@ -12,7 +12,7 @@ telo {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #FFFFFF;
+	background-color: #f2d6c4; 
 }
 /* Header */
 hlavicka {
@@ -33,7 +33,7 @@ hlavicka {
 	font-size: 22px;
 }
 .hero_header {
-	color: #FFFFFF;
+	color: #000;
 	text-align: center;
 	margin: 0;
 	letter-spacing: 4px;
@@ -53,7 +53,7 @@ hlavicka {
 	clear: both;
 	display: inline-block;
 	width: 100%;
-	background-color: #FFFFFF;
+	background-color: #fff;
 	/* [disabled]min-width: 400px;
 */
 	padding-bottom: 35px;
@@ -77,7 +77,7 @@ hlavicka {
 .gallery .thumbnail h4 {
 	margin-top: 5px;
 	margin-bottom: 5px;
-	color: #52BAD5;
+	color: #000; 
 	text-align: left;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -169,7 +169,7 @@ footer {
 }
 .intro {
 	display: inline-block;
-	background-color: #6DC7D0;
+	background-color: #A4A4A4;
 }
 .profile {
 	width: 50%;
@@ -326,7 +326,7 @@ footer {
 /* og css */
 body {
 	font-family: Raleway, sans-serif;
-	background-color: #f2d6c4;
+	background-color: #fff;
 }
 
 /* Changing the background colour for the header */
@@ -417,12 +417,12 @@ footer a:hover {
 }
 
 .button:hover {
-  background-color: #555;
+  background-color: #f28e4f;
 }
 /*end of our pictures*/ 
 
 .topnav .login-container button:hover {
-  background: #555; 
+  background: #f28e4f; 
 }
 /*the start of the sign up button */
 * {font-family: Arial, Helvetica, sans-serif;}
@@ -498,7 +498,7 @@ signup-button:hover {
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
+  background-color: #ff6708;
 /*the end of the sign up button */
 }	
 	/*values*/
