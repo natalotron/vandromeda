@@ -547,7 +547,11 @@ signup-button:hover {
     grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
     grid-gap: 10px; /* Adjust the gap between items */
 }
-
+.social-media1 {
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+}
 .item {
     /* Optional: You can add additional styling to the items */
 }
