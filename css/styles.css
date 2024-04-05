@@ -540,3 +540,21 @@ signup-button:hover {
 }
 .text3{
 	color: #000}
+ 
+/*social media posts*/ 
+.social-media {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    grid-gap: 10px; /* Adjust the gap between items */
+}
+
+.item {
+    /* Optional: You can add additional styling to the items */
+}
+
+/* Optional: Adjust the image size */
+.img-thumbnail {
+    width: 100%; /* Make sure the images fill their container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline styling */
+}
