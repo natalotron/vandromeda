@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 /* natalia css file */
-.telo {
+.body {
     font-family: "Francois One", sans-serif, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-weight: 400;
   	font-style: normal;
@@ -324,12 +324,6 @@ footer {
 .button_calendar:hover span:after {
   opacity: 1;
   right: 0;
-}
-
-/* og css */
-body {
-	font-family: Raleway, sans-serif;
-	background-color: #fff;
 }
 
 /* Changing the background colour for the header */
