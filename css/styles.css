@@ -14,6 +14,12 @@
 	margin: 0;
 }
 
+.acme-regular {
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Container */
 .nadoba {
 	width: 90%;
@@ -22,12 +28,10 @@
 	background-color: #f2d6c4; 
 }
 /* Header */
-hlavicka {
-	width: 100%;
-	height: 8%;
-	background-color: #5D5E5D;
-	border-bottom: 1px solid #353635;
+h1, h2, h3, h4 {
+	font-family: "Acme", sans-serif;
 }
+
 .logo {
 	color: #fff;
 	font-weight: bold;
@@ -330,11 +334,6 @@ footer {
   right: 0;
 }
 
-/* Changing the background colour for the header */
-
-header {
-	background-color: #fffcf8; 
-}
 
 /* Changing the background color for the navigation bar */
 
@@ -575,14 +574,6 @@ blog-body {
   font-family: "Francois One", sans-serif, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
   padding: 20px;
   background: #f1f1f1;
-}
-
-/* Header/Blog Title */
-.header-blog {
-  padding: 30px;
-  font-size: 40px;
-  text-align: center;
-  background: white;
 }
 
 /* Create two unequal columns that floats next to each other */
