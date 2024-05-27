@@ -3,11 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 /* natalia css file */
 .body {
-    font-family: "Francois One", sans-serif, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-family: "Francois One", sans-serif;
+    background-color: #f2d6c4;
+}
+
+.francois-one {
+	font-family: "Francois One", sans-serif;
 	font-weight: 400;
   	font-style: normal;
-    background-color: #f2d6c4;
-    margin: 0;
+	margin: 0;
 }
 
 /* Container */
@@ -509,7 +513,7 @@ signup-button:hover {
 .columns1 {
 	width: 25%;
 	float: left;
-	font-family: "Source Sans Pro";
+	font-family: "Francois One", sans-serif, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	color: #A5A5A5;
 	line-height: 24px;
 	padding-top: 10px;
@@ -568,7 +572,7 @@ signup-button:hover {
 
 /* Add a gray background color with some padding */
 blog-body {
-  font-family: Arial;
+  font-family: "Francois One", sans-serif, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
   padding: 20px;
   background: #f1f1f1;
 }
