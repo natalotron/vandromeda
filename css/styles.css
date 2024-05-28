@@ -20,13 +20,20 @@
   font-style: normal;
 }
 
-/* Container */
-.nadoba {
-	width: 90%;
+.container {
+  padding: 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #f2d6c4; 
+    padding-right: 50px;
+	padding-left: 50px;
 }
+
 /* Header */
 h1, h2, h3, h4 {
 	font-family: "Acme", sans-serif;
@@ -106,7 +113,8 @@ h1, h2, h3, h4 {
 	background-color: #FFFFFF;
 	padding-bottom: 35px;
 }
-.column {
+.column p {
+	font-family: "Roboto Mono", monospace;
 	width: 50%;
 	text-align: center;
 	padding-top: 30px;
@@ -183,7 +191,7 @@ footer {
 	background-color: #A4A4A4;
 }
 .profile {
-	width: 50%;
+	width: 70%;
 }
 .gallery .thumbnail .tag {
 	color: #5D5E5D;
@@ -209,9 +217,11 @@ footer {
 	text-align: justify;
 	padding: 0;
 }
-.intro .column p {
+.intro .column {
 	width: 80%;
 	margin-left: 0px;
+	justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
 }
 .text_column {
 	padding-left: 20px;
@@ -222,6 +232,9 @@ footer {
 .column {
 	width: 100%;
 	margin-top: 0px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;  
 }
 .hero_header {
 	padding-left: 10px;
@@ -388,20 +401,6 @@ footer a:hover {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.container {
-  padding: 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-	margin-left: auto;
-	margin-right: auto;
-    padding-right: 50px;
-	padding-left: 50px;
 }
 
 .title {
