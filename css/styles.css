@@ -50,11 +50,17 @@ h1, h2, h3, h4 {
 	line-height: 2em;
 	font-size: 22px;
 }
+
+/* Hero Section */
+.hero_section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
 .hero_header {
-	color: #000;
-	text-align: center;
-	margin: 0;
-	letter-spacing: 4px;
+    font-family: 'Francois One', sans-serif;
+    color: #000;
+    letter-spacing: 4px;
 }
 /* About Section */
 .text_column {
