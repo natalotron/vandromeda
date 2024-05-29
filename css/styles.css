@@ -660,6 +660,6 @@ width: 30%;
 }
 @media (min-width: 768px) {
 	.column p {
-		text-align: left; /* Left align text on larger screens */
+		text-align: center; /* Left align text on larger screens */
 	}
 }
