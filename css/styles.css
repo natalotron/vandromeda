@@ -377,7 +377,7 @@ footer a:hover {
 }
 
 .custom-bg-color { 
-    background-color: #fff; 
+    background-color: #f2d6c4; 
 }
 
  /*our pictures */ 
@@ -579,7 +579,7 @@ blog-body {
 /* Left column */
 .leftcolumn-blog {   
   float: left;
-  width: 75%;
+  width: 70%;
 }
 
 /* Right column */
