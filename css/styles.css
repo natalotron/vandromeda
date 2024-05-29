@@ -591,17 +591,16 @@ blog-body {
 
 /* Fake image */
 .fakeimg-blog {
-  background-color: #F5E320 ;
+  background-color: #fff;
   width: 100%;
-  padding: 10px;
 }
 
 /* Add a card effect for articles */
 .card-blog {
    background-color: white;
-   padding: 20px;
+   padding: 4px;
   margin: 20px 0;
-  border: 1px solid #ddd;
+
 }
 
 /* Clear floats after the columns */
@@ -622,7 +621,7 @@ blog-body {
 .leftcolumn-blog {
  float: left;
  width: 70%; 
- padding: 10px;
+ padding: 30px;
 }
 
 .rightcolumn-blog {
