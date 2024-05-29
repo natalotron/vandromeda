@@ -647,11 +647,19 @@ width: 30%;
 
 
 /*ollie css*/
+
 .intro {
 	padding: 2rem;
-	
 }
 .profile {
 	max-width: 100%;
 	height: auto;
+}
+.column p {
+	text-align: center; /* Center text on mobile */
+}
+@media (min-width: 768px) {
+	.column p {
+		text-align: left; /* Left align text on larger screens */
+	}
 }
