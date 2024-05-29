@@ -658,9 +658,3 @@ width: 30%;
 .column p {
 	text-align: center; /* Center text on mobile */
 }
-@media (min-width: 768px) {
-	.column p {
-		text-align: center; /* Left align text on larger screens */
-		padding: 0;
-	}
-}
