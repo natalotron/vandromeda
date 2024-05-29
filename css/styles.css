@@ -383,8 +383,9 @@ footer a:hover {
 }
 
 .custom-bg-color { 
-    background-color: #f2d6c4; 
+    background-color: rgba(255, 227, 8, 0.2); /* Adjust the last value for opacity */
 }
+
 
  /*our pictures */ 
 *,* ::before, *::after{
